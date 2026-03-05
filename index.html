@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WEEE Grocery MVP</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">WEEE</div>
+    <nav class="tabs">
+      <button data-route="home" class="tab active">Home</button>
+      <button data-route="search" class="tab">Search</button>
+      <button data-route="cart" class="tab">Cart <span id="cartCount" class="pill">0</span></button>
+      <button data-route="checkout" class="tab">Checkout</button>
+    </nav>
+  </header>
+
+  <main id="app" class="container" aria-live="polite"></main>
+
+  <footer class="footer">
+    <div>Local demo MVP • data stored in localStorage</div>
+    <div class="muted">Events: open DevTools console to view interaction logs</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
