@@ -21,3 +21,4 @@ Open `index.html` in any modern browser.
 
 ## Notes
 This is a prototype MVP intended for rapid iteration and usability validation, with a clean path to expand into a full-stack implementation.
+Deployed via GitHub Pages.
